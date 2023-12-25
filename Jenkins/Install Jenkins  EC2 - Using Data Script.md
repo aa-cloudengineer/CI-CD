@@ -15,9 +15,9 @@ Steps:
 
     1. Login into AWS and search for EC2 in services:
       
-    Click on EC2 and explore the dashboard.
+  Click on EC2 and explore the dashboard.
 
-    tempsnip.png
+tempsnip.png
 
     2. Create a new Jenkins pipeline:
        2.1 In Jenkins, create a new pipeline job and configure it with the Git repository URL for the Java application.
