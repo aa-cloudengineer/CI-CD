@@ -73,7 +73,7 @@ Steps:
    
     9. Finally, start using the jenkins.
     
-    ![Welcome2Jenkins](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/c68a1802-30e3-4ea6-941d-355be1ce6b0e)
+   ![Welcome2Jenkins](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/c68a1802-30e3-4ea6-941d-355be1ce6b0e)
 
 Amazon Elastic Compute Cloud(EC2) is a web service that provides secure, resizable computing capacity in the cloud. It allows users to rent virtual computers, launch as many or as few virtual servers as needed, configure security and networking, and manage storage. Amazon EC2 enables you to scale up or down to handle changes in requirements or spikes in popularity, reducing your need to forecast traffic.
 
