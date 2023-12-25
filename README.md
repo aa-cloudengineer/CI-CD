@@ -1,7 +1,7 @@
 # CI-CD tools 
 
 
-Continuous Integration and Continuous Deployment (CI/CD) are crucial practices in software development that aim to automate the process of integrating code changes, testing them, and deploying them to production environments. Several popular CI/CD tools are widely used in the industry, each with its own strengths and features. Here's a brief introduction to some of them:
+Continuous Integration and Continuous Deployment (CI/CD) are crucial practices in software development that aim to automate the process of integrating code changes, testing them, and deploying them to production environments. Several popular CI/CD tools are widely used in the industry, each with its own strengths and features. In this repo i will demonstrate project in each of the selected tools:
 
 ## GitHub Actions:
 
