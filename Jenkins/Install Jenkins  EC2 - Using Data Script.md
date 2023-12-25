@@ -1,6 +1,6 @@
 # Install Jenkins in EC2 Instance using User Data Script
 
-Steps for installing Jenkins using an EC2 (Ubuntu system):
+Steps for installing Jenkins on an EC2 using (Ubuntu system):
    
 Prerequisites:
 
