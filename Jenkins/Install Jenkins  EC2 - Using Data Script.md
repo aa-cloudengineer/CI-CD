@@ -15,29 +15,20 @@ Steps:
        
    ![searchforec2](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/f1d97b4f-1e2b-47ce-9587-ac906fbe81fc)
     
-    2. Create a new Jenkins pipeline:
-       2.1 In Jenkins, create a new pipeline job and configure it with the Git repository URL for the Java application.
-       2.2 Add a Jenkinsfile to the Git repository to define the pipeline stages.
+    2. Launch an EC2 Instance
+       For creating a new instance, click on instances and choose Launch instances from the dropdown.
 
-    3. Define the pipeline stages:
-        Stage 1: Checkout the source code from Git.
-        Stage 2: Build the Java application using Maven.
-        Stage 3: Run unit tests using JUnit and Mockito.
-        Stage 4: Run SonarQube analysis to check the code quality.
-        Stage 5: Package the application into a JAR file.
-        Stage 6: Deploy the application to a test environment using Helm.
-        Stage 7: Run user acceptance tests on the deployed application.
-        Stage 8: Promote the application to a production environment using Argo CD.
+         ![launchEC2](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/bb1c0f95-beb5-45a5-9f11-fa7409c87a9c)
 
-    4. Configure Jenkins pipeline stages:
-        Stage 1: Use the Git plugin to check out the source code from the Git repository.
-        Stage 2: Use the Maven Integration plugin to build the Java application.
-        Stage 3: Use the JUnit and Mockito plugins to run unit tests.
-        Stage 4: Use the SonarQube plugin to analyze the code quality of the Java application.
-        Stage 5: Use the Maven Integration plugin to package the application into a JAR file.
-        Stage 6: Use the Kubernetes Continuous Deploy plugin to deploy the application to a test environment using Helm.
-        Stage 7: Use a testing framework like Selenium to run user acceptance tests on the deployed application.
-        Stage 8: Use Argo CD to promote the application to a production environment.
+    3. Configure EC2
+      Enter the name of your server like "Jenkins server" and choose Amazon Machine Image(AMI). An AMI is a template that contains a software configuration (for example, an operating system, an application server, and           applications). In my case, I am selecting Ubuntu Server 22.04.
+
+      ![ConfigEC2](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/0544a343-7c19-4528-8c74-e3205140aeeb)
+
+    4. Create new key pair
+      Choose the instance type eligible for the free tier ( t2.micro) or higher instance type based on your server requirements. Click Create new key pair.
+
+      ![CreateNewKP](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/3d14d4cb-eeee-4d2e-95a9-634e688166d8)
 
     5. Set up Argo CD:
         Install Argo CD on the Kubernetes cluster.
