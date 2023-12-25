@@ -9,7 +9,7 @@ Prerequisites:
 Steps:
 
     1. Login into AWS and search for EC2 in services:
-   ![searchforec2](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/df9bf66b-6483-42fd-91d4-edff7e84f0b7)
+          https://github.com/aa-cloudengineer/CI-CD/issues/1#issue-2055353694
     2. Create a new Jenkins pipeline:
        2.1 In Jenkins, create a new pipeline job and configure it with the Git repository URL for the Java application.
        2.2 Add a Jenkinsfile to the Git repository to define the pipeline stages.
