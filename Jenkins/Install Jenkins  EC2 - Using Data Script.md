@@ -18,17 +18,17 @@ Steps:
     2. Launch an EC2 Instance
        For creating a new instance, click on instances and choose Launch instances from the dropdown.
 
-         ![launchEC2](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/bb1c0f95-beb5-45a5-9f11-fa7409c87a9c)
+   ![launchEC2](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/bb1c0f95-beb5-45a5-9f11-fa7409c87a9c)
 
     3. Configure EC2
       Enter the name of your server like "Jenkins server" and choose Amazon Machine Image(AMI). An AMI is a template that contains a software configuration (for example, an operating system, an application server, and           applications). In my case, I am selecting Ubuntu Server 22.04.
 
-      ![ConfigEC2](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/0544a343-7c19-4528-8c74-e3205140aeeb)
+   ![ConfigEC2](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/0544a343-7c19-4528-8c74-e3205140aeeb)
 
     4. Create new key pair
       Choose the instance type eligible for the free tier ( t2.micro) or higher instance type based on your server requirements. Click Create new key pair.
 
-      ![CreateNewKP](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/3d14d4cb-eeee-4d2e-95a9-634e688166d8)
+   ![CreateNewKP](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/3d14d4cb-eeee-4d2e-95a9-634e688166d8)
 
     5. Set up Argo CD:
         Install Argo CD on the Kubernetes cluster.
