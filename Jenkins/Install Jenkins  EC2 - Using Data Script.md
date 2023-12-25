@@ -2,7 +2,6 @@
 
 Steps for installing Jenkins using an EC2 (Ubuntu system):
 
-
 Prerequisites:
 
    -  Java application code hosted on a Git repository
@@ -15,9 +14,6 @@ Steps:
 
     1. Login into AWS and search for EC2 in services:
       
-  Click on EC2 and explore the dashboard.
-
-tempsnip.png
 
     2. Create a new Jenkins pipeline:
        2.1 In Jenkins, create a new pipeline job and configure it with the Git repository URL for the Java application.
