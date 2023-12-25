@@ -6,6 +6,7 @@ Prerequisites:
 
    -  AWS Account + User Data
 ![searchforec2](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/f1d97b4f-1e2b-47ce-9587-ac906fbe81fc)
+![jk](https://github.com/aa-cloudengineer/CI-CD/assets/144057103/e2506c75-b4a8-462b-9548-4d41c0bb2e72)
 
 Steps:
 
