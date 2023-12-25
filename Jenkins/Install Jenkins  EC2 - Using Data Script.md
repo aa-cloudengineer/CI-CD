@@ -4,11 +4,7 @@ Steps for installing Jenkins using an EC2 (Ubuntu system):
 
 Prerequisites:
 
-   -  Java application code hosted on a Git repository
-   -   Jenkins server
-   -  Kubernetes cluster
-   -  Helm package manager
-   -  Argo CD
+   -  AWS Account + User Data
 
 Steps:
 
